@@ -1,0 +1,92 @@
+/* -----layout----- */
+
+.main-container {
+    display: flex;
+    width: 1200px;
+}
+
+
+
+/* ---gral-- */
+ul{
+    list-style-type:none;
+}
+
+/* ----aside---- */
+aside{
+    background-color: #737272;
+    width: 30%;
+    margin-right: 3%;
+}
+
+aside *{
+    color: #ffff;
+}
+aside h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+/* :nth-child() */
+aside section h2:first-child{
+border-bottom:1px solid #ffff;
+}
+
+#profile img {
+    border-radius: 50%;
+}
+
+/* ---main--- */
+main section > h2 {
+text-transform: uppercase;
+letter-spacing:5px;
+}
+
+.hero{
+    background-color: #6C733D;
+    box-shadow: 3px 3px 20px 10px #5f643f inset;
+}
+
+.hero h2{
+    color: #ffff;
+    border-top:5px solid #ffff;
+    text-transform: none;
+    letter-spacing:normal;
+}
+
+.about-me {
+ background-color: #9DA65D;
+}
+.about-me h2{
+    background-color: #ffff;
+}
+
+
+article h3 ,
+article h4 {
+    font-weight: bold;
+    
+}
+article ul {
+    list-style-type: square;
+}
+
+.referencias{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,10 +11,14 @@
 ul{
     list-style-type:none;
 }
+.clear {
+    clear: both;
+}
+
 
 /* ----aside---- */
 aside{
-    background-color: #737272;
+    background-color:#289696;
     width: 30%;
     margin-right: 3%;
 }
@@ -43,8 +47,8 @@ letter-spacing:5px;
 }
 
 .hero{
-    background-color: #6C733D;
-    box-shadow: 3px 3px 20px 10px #5f643f inset;
+    background-color: #31F3F3;
+    box-shadow: 3px 3px 20px 10px #226666 inset;
 }
 
 .hero h2{
@@ -55,7 +59,7 @@ letter-spacing:5px;
 }
 
 .about-me {
- background-color: #9DA65D;
+ background-color: #8cf6f6;
 }
 .about-me h2{
     background-color: #ffff;
@@ -72,12 +76,53 @@ article ul {
 }
 
 .referencias{
+    background-color: #6C733D;
     display: flex;
+    flex-wrap: wrap;
+
+}
+
+.referencias article{
+/*width: 50%;  */
+flex-basis: 50%;
+}
+
+dt,
+dd{
+    line-height: 1.5em;
+    border-top: 1px solid #fff
+}
+ 
+
+dt:last-of-type,
+dd:last-of-type{
+    border-bottom: 1px solid #fff ;
+}
+dl{
+    display: flex;
+    flex-wrap: wrap;
+}
+dt,
+dt{
+flex-basis: 40%;
+margin: 0;
 }
 
 
-
-
+/* dt{
+    clear: left;
+    width: 40%;
+    float:left;
+    border-top: 1px solid #fff;
+    font-weight: bold;
+} 
+dd{
+    clear: right;
+    width: 50%;
+    float:left;
+    margin:0;
+    border-top: 1px solid #fff
+} */
 
 
 

@@ -21,13 +21,14 @@ aside{
     background-color:#289696;
     width: 30%;
     margin-right: 3%;
+    padding: 15px;
+  
 }
 
 aside *{
     color: #ffff;
 }
 aside h2{
-    text-transform: uppercase;
     letter-spacing: 3px;
 
 }
@@ -49,48 +50,69 @@ letter-spacing:5px;
 .hero{
     background-color: #31F3F3;
     box-shadow: 3px 3px 20px 10px #226666 inset;
+    padding: 12% 15% ;
+    text-align: center;
 }
 
 .hero h2{
     color: #ffff;
     border-top:5px solid #ffff;
-    text-transform: none;
-    letter-spacing:normal;
+    letter-spacing:15px;
+    
+}
+.hero h1{
+    letter-spacing:10px;
+    
 }
 
-.about-me {
- background-color: #8cf6f6;
-}
 .about-me h2{
     background-color: #ffff;
 }
-
+.about-me p {
+ line-height: 2em;
+ background-color: #8cf6f6;
+ padding: 5px;
+ 
+}
 
 article h3 ,
 article h4 {
     font-weight: bold;
     
 }
+h1,
+h2{
+    text-transform: uppercase;
+}
+
 article ul {
     list-style-type: square;
 }
 
 .referencias{
-    background-color: #6C733D;
+    background-color:  #8cf6f6;
     display: flex;
     flex-wrap: wrap;
 
 }
 
 .referencias article{
-/*width: 50%;  */
-flex-basis: 50%;
+    /*width: 50%;  */
+    flex-basis: 50%;
+    text-align: center;
+}
+/* ---flexbox--- */
+dl{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 dt,
 dd{
     line-height: 1.5em;
-    border-top: 1px solid #fff
+    border-top: 1px solid #fff;
+    flex-basis: 40%;
+margin: 0;
 }
  
 
@@ -98,17 +120,46 @@ dt:last-of-type,
 dd:last-of-type{
     border-bottom: 1px solid #fff ;
 }
-dl{
-    display: flex;
-    flex-wrap: wrap;
-}
-dt,
 dt{
-flex-basis: 40%;
-margin: 0;
+    font-weight: bolder;
+}
+.linkedin::before{
+
+font-family: "Font Awesome 5 Brands";
+font-weight: 900;
+font-size: 20px;
+content: "\f08c";
+
+
+}
+
+.social-item::before {
+    padding-right: 15px;
+    
+    
+}
+a{
+    text-decoration: none;
 }
 
 
+meter{
+    display: block;
+    width: 80%;
+    
+}
+
+meter::-webkit-meter-optimum-value{
+    background: none;
+    background-color: pink;
+}
+/* 
+Para cambiar el fondo
+    meter::-webkit-meter-bar{
+    background: none;
+    background-color: red;
+} */
+/* -----flotante----- */
 /* dt{
     clear: left;
     width: 40%;

@@ -2,7 +2,10 @@
 
 .main-container {
     display: flex;
-    width: 1200px;
+    width: 100%;
+   /*  width: 1200px; */
+    /*  margin: 0 auto;  */
+     justify-content: space-between;
 }
 
 
@@ -19,9 +22,10 @@ ul{
 /* ----aside---- */
 aside{
     background-color:#289696;
-    width: 30%;
+    /* width: 30%; */
+    flex-basis: 25%;
     margin-right: 3%;
-    padding: 15px;
+   /*  padding: 15px; */
   
 }
 
@@ -39,9 +43,15 @@ border-bottom:1px solid #ffff;
 
 #profile img {
     border-radius: 50%;
+    width: 100px;
+    height: auto;
 }
 
 /* ---main--- */
+main{
+    flex-basis: 80%;
+    /* 60% */
+}
 main section > h2 {
 text-transform: uppercase;
 letter-spacing:5px;

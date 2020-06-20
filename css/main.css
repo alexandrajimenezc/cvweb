@@ -200,7 +200,7 @@ content: "\f08c";
     font-weight: 900;
     font-size: 17px;
     content: "\f0e0";
-      
+   
 }
 .postal::before{
 
@@ -240,6 +240,35 @@ meter::-webkit-meter-optimum-value{
 .contacto li{
     padding-top: 5px;
 }
+
+.titulode{
+    font-weight: bold;
+  
+    
+}
+.lado{
+    font-style: italic;
+}
+
+.ver::before{
+
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 17px;
+    content: "\f06e";
+      
+}
+button{
+    background-color:  rgb(39, 142, 150);
+    border: none;
+    border-radius: 50px;
+}
+.habilidades ul{
+   
+list-style-type: square;
+margin-left: 15px;
+    
+}
 /* 
 Para cambiar el fondo
     meter::-webkit-meter-bar{
@@ -262,6 +291,49 @@ dd{
     border-top: 1px solid #fff
 } */
 
+
+@media (max-width:1968px){
+    .contacto{
+        margin-left: 8px;
+    
+    }
+}
+
+@media (max-width:768px){
+    .contacto{
+        margin-left: 8px;
+    
+    }
+ 
+    .main-container {
+        display: block;
+        width: 100%;
+        margin:0;
+        padding: 0;
+        padding: 0;
+        
+       
+        
+    }
+    aside{
+        margin:0;
+        padding: 0;
+    }
+    .hero h2{
+        letter-spacing:10px;
+        font-size: 15px;
+    }
+
+    #profile img {
+        
+        width: 100px;
+        height: auto; 
+    }
+    #profile{
+        text-align: center;
+        padding-top: 15px;
+        }
+}
 
 
 

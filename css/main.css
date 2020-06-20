@@ -1,4 +1,6 @@
-
+.oculta{
+   display: none;
+}
 /* -----layout----- */
 
 
@@ -105,11 +107,15 @@ letter-spacing:5px;
 }
 .about-me p {
  line-height: 2em;
- background-color:  #83e7e7;
+ background-color:  #83e7e7; 
  padding: 5px;
  box-shadow: 3px 3px 20px 5px #6bbdbd inset;
- 
+  */
 }
+/* .p{
+    background-color:  #83e7e7;
+    box-shadow: 3px 3px 20px 5px #6bbdbd inset;
+} */
 
 article h3 ,
 article h4 {
@@ -304,7 +310,12 @@ dd{
         margin-left: 8px;
     
     }
- 
+    .oculta{
+        display: block;
+     }
+     .nombre{
+        display: none;
+     }
     .main-container {
         display: block;
         width: 100%;

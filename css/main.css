@@ -69,8 +69,8 @@ text-align: center;
 }
 #profile img {
     border-radius: 50%;
-   /*  width: 100px;
-    height: auto; */
+     width: 100px;
+    height: auto; 
 }
 
 /* ---main--- */
@@ -110,7 +110,7 @@ letter-spacing:5px;
  background-color:  #83e7e7; 
  padding: 5px;
  box-shadow: 3px 3px 20px 5px #6bbdbd inset;
-  */
+  
 }
 /* .p{
     background-color:  #83e7e7;

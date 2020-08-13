@@ -28,8 +28,7 @@ _Editor de codigo (para editar/ hacer cambios)_
 
 
 
-#### Construido
- - viendo en el video de JS30   .  
+#### Construido 
  - USANDO Visual Studio Code  
 
 
